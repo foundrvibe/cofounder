@@ -2,7 +2,7 @@
 
 A playbook is a job you already know how to do, written down once. Give that playbook to your agent. The agent does the job the way you would, and respects that pattern on every run.
 
-One skill runs every playbook, in ChatGPT, Claude, or Cursor.
+Start with the [cofounder](#use-it), in ChatGPT, Claude, or Cursor. It decides which playbook to run, runs it, and remembers the results between sessions. It calls two other skills: one [runs a single playbook](#run-one-playbook-directly), and one [writes a new playbook](#write-your-own-playbook) from a job you describe.
 
 ```mermaid
 flowchart LR
@@ -11,8 +11,9 @@ flowchart LR
   give --> result[The agent does the job the way you would]
 ```
 
-Three files make that work:
+Four files make that work:
 
+- [skills/cofounder/SKILL.md](skills/cofounder/SKILL.md) is the front door: it reads every message, picks the next move, and keeps the founder file.
 - [rules/fill.md](rules/fill.md) is the contract for every run: cite sources, label estimates, and do not leave a section blank.
 - [skills/run-playbook/SKILL.md](skills/run-playbook/SKILL.md) is the loop: pick the playbook, ask, follow its steps, return the result.
 - [catalog.json](catalog.json) is the index. Playbooks sit in three categories: **Validation**, **Planning**, and **Growth**. A request is matched to a ready playbook. A stub is skipped. If two ready playbooks both match, the agent asks which one and names the category.
@@ -40,7 +41,38 @@ No playbook invents an interview, a contact, a quote, or a figure. Anything not 
 
 ## Use it
 
-Paste this into ChatGPT, Claude, or a Cursor agent chat. One link is enough. The skill fetches the rules, the catalog, and the playbook files.
+Paste this into ChatGPT, Claude, or a Cursor agent chat. One link is enough. The cofounder fetches the other skills, the rules, the catalog, and the playbook files.
+
+```text
+Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/cofounder/SKILL.md
+
+I'm building ZedCut, a bilingual B2B SaaS for countertop fabrication shops in Quebec. What should I do next?
+```
+
+Then talk to it as you would to a cofounder. Every message goes to the cofounder first, and it decides what happens:
+
+| You say | The cofounder |
+|---|---|
+| "What should I do next?" | Says where the company stands, names the riskiest assumption, and recommends one playbook. |
+| "Write a business plan" | Checks the evidence, then runs that playbook without asking again what it already knows. |
+| "I did five interviews, here are my notes" | Records them, closes the test you committed to, and moves to the next step. |
+| "Actually the price is 149, not 199" | Updates the fact and names each document that used the old price. |
+| "Make me a pitch deck" | Says no playbook covers it, does the work directly, and offers to turn it into a playbook if you will do it again. |
+| "Save" or "done" | Saves the founder file and reminds you of the one open test. |
+
+- **It keeps a founder file**: what is a fact, what is still a guess, the verdict of each playbook you ran, and the one test you said you would do. It saves the file every time it changes.
+- **It disagrees from evidence.** It will argue against an MVP plan while the idea check says `not yet`, and it puts money first when the model says `default dead`. It says so once. You decide, and it runs what you ask for.
+- **It checks one document against another**, such as a price that differs between the go-to-market plan and the financial model.
+- **A guess stays a guess** until a customer acts, your own data shows it, or a page the agent opened shows it.
+
+### Where the founder file lives
+
+- **Claude Code or Cursor:** `founder.md` in your folder, with each document saved beside it. Nothing to do.
+- **ChatGPT or Claude chat:** make a Project for the company and put the two lines above in its instructions. When the agent prints the founder file, save it into the project's files. Each new chat in that Project picks it up. Without a project, paste the file at the start of the next chat.
+
+## Run one playbook directly
+
+To skip the cofounder and get one document, use the run-playbook link. It keeps no founder file.
 
 ```text
 Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md
@@ -50,7 +82,7 @@ Create a business plan for ZedCut, a bilingual B2B SaaS for countertop fabricati
 
 Replace the second line with your own request. If several playbooks match, the agent asks which one and names the category.
 
-To choose the playbook yourself, name its id. The agent uses that playbook and does not match intents.
+To choose the playbook yourself, name its id. The agent uses that playbook and does not match intents. This works with the cofounder link too.
 
 ```text
 Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md
@@ -70,8 +102,20 @@ ZedCut, a bilingual B2B SaaS for countertop fabrication shops in Canada. No inte
 
 A raw URL to `template.md`, `schema.json`, or the playbook folder selects it the same way. Replace `main` with a version tag to pin that playbook.
 
+## Write your own playbook
+
+The eight playbooks here are startup work. The format fits any job you already know how to do. This skill interviews you about the job, writes the five files and the catalog entry, and validates them. The cofounder offers it when you ask for work no playbook covers, or you can call it yourself.
+
+```text
+Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/write-playbook/SKILL.md
+
+Turn how I do a pricing review for small software companies into a playbook.
+```
+
+In Claude Code or Cursor, with this repository cloned, the agent writes the files and runs `npm run validate` until it passes. In a chat it returns the files for you to add, and says that validation was not run. The method stays yours: where you gave no rule, the agent lists the one it proposed for you to confirm.
+
 <details>
-<summary>Add a playbook</summary>
+<summary>Add a playbook by hand</summary>
 
 1. Copy `playbooks/_starter/` to `playbooks/<category>/<id>/`. Set `x-id` in `schema.json` to the new id. Set `title` and `description` in `description.json`, and set `x-title` to that same title.
 2. Edit `template.md`, `schema.json`, and `example.json`. `template.md` is the result. Mark each field `x-source` as `user`, `user_data`, `derived`, or `research`.

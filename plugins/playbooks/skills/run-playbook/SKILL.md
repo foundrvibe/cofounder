@@ -1,10 +1,11 @@
 ---
 name: run-playbook
 description: >-
-  Runs a playbook from the user's context plus public research. Use when the
-  user asks to run a playbook, gives a playbook URL or id, or describes work
-  that should match an intent in catalog.json. The catalog is the list of
-  playbooks, including any added later.
+  Runs one playbook from the user's context plus public research and returns
+  the finished document. The cofounder skill calls it for every document. Use
+  it directly only when the user asks to run a single playbook without the
+  cofounder, or gives a playbook URL or id with no other company context. The
+  catalog is the list of playbooks, including any added later.
 ---
 
 # Run a playbook
