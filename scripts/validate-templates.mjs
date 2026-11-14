@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { checkFill, formatTypes, loadTheme, readJson, renderFill, root, sourceTypes } from "./lib/fill.mjs";
 
-const rawBase = "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/";
+const rawBase = "https://raw.githubusercontent.com/foundrvibe/cofounder/main/";
 const templateFiles = ["description.json", "example.json", "research.md", "schema.json", "template.md"];
 const catalogFileKeys = {
   template: "template.md",

@@ -1,9 +1,9 @@
 {
   "name": "Playbooks",
   "rules": "rules/fill.md",
-  "rulesUrl": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/rules/fill.md",
+  "rulesUrl": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/rules/fill.md",
   "skill": "skills/run-playbook/SKILL.md",
-  "skillUrl": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md",
+  "skillUrl": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/run-playbook/SKILL.md",
   "categories": [
     {
       "id": "planning",
@@ -41,23 +41,23 @@
       "files": {
         "template": {
           "path": "playbooks/planning/business-plan/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/business-plan/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/business-plan/template.md"
         },
         "schema": {
           "path": "playbooks/planning/business-plan/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/business-plan/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/business-plan/schema.json"
         },
         "example": {
           "path": "playbooks/planning/business-plan/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/business-plan/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/business-plan/example.json"
         },
         "research": {
           "path": "playbooks/planning/business-plan/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/business-plan/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/business-plan/research.md"
         },
         "description": {
           "path": "playbooks/planning/business-plan/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/business-plan/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/business-plan/description.json"
         }
       }
     },
@@ -78,23 +78,23 @@
       "files": {
         "template": {
           "path": "playbooks/validation/idea-validator/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/idea-validator/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/idea-validator/template.md"
         },
         "schema": {
           "path": "playbooks/validation/idea-validator/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/idea-validator/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/idea-validator/schema.json"
         },
         "example": {
           "path": "playbooks/validation/idea-validator/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/idea-validator/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/idea-validator/example.json"
         },
         "research": {
           "path": "playbooks/validation/idea-validator/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/idea-validator/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/idea-validator/research.md"
         },
         "description": {
           "path": "playbooks/validation/idea-validator/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/idea-validator/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/idea-validator/description.json"
         }
       }
     },
@@ -115,23 +115,23 @@
       "files": {
         "template": {
           "path": "playbooks/validation/customer-discovery/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/customer-discovery/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/customer-discovery/template.md"
         },
         "schema": {
           "path": "playbooks/validation/customer-discovery/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/customer-discovery/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/customer-discovery/schema.json"
         },
         "example": {
           "path": "playbooks/validation/customer-discovery/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/customer-discovery/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/customer-discovery/example.json"
         },
         "research": {
           "path": "playbooks/validation/customer-discovery/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/customer-discovery/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/customer-discovery/research.md"
         },
         "description": {
           "path": "playbooks/validation/customer-discovery/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/customer-discovery/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/customer-discovery/description.json"
         }
       }
     },
@@ -152,23 +152,23 @@
       "files": {
         "template": {
           "path": "playbooks/validation/market-research/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/market-research/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/market-research/template.md"
         },
         "schema": {
           "path": "playbooks/validation/market-research/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/market-research/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/market-research/schema.json"
         },
         "example": {
           "path": "playbooks/validation/market-research/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/market-research/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/market-research/example.json"
         },
         "research": {
           "path": "playbooks/validation/market-research/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/market-research/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/market-research/research.md"
         },
         "description": {
           "path": "playbooks/validation/market-research/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/validation/market-research/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/validation/market-research/description.json"
         }
       }
     },
@@ -189,23 +189,23 @@
       "files": {
         "template": {
           "path": "playbooks/planning/mvp-planner/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/mvp-planner/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/mvp-planner/template.md"
         },
         "schema": {
           "path": "playbooks/planning/mvp-planner/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/mvp-planner/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/mvp-planner/schema.json"
         },
         "example": {
           "path": "playbooks/planning/mvp-planner/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/mvp-planner/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/mvp-planner/example.json"
         },
         "research": {
           "path": "playbooks/planning/mvp-planner/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/mvp-planner/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/mvp-planner/research.md"
         },
         "description": {
           "path": "playbooks/planning/mvp-planner/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/mvp-planner/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/mvp-planner/description.json"
         }
       }
     },
@@ -227,23 +227,23 @@
       "files": {
         "template": {
           "path": "playbooks/planning/financial-model/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/financial-model/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/financial-model/template.md"
         },
         "schema": {
           "path": "playbooks/planning/financial-model/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/financial-model/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/financial-model/schema.json"
         },
         "example": {
           "path": "playbooks/planning/financial-model/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/financial-model/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/financial-model/example.json"
         },
         "research": {
           "path": "playbooks/planning/financial-model/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/financial-model/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/financial-model/research.md"
         },
         "description": {
           "path": "playbooks/planning/financial-model/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/planning/financial-model/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/planning/financial-model/description.json"
         }
       }
     },
@@ -265,23 +265,23 @@
       "files": {
         "template": {
           "path": "playbooks/growth/go-to-market/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/go-to-market/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/go-to-market/template.md"
         },
         "schema": {
           "path": "playbooks/growth/go-to-market/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/go-to-market/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/go-to-market/schema.json"
         },
         "example": {
           "path": "playbooks/growth/go-to-market/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/go-to-market/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/go-to-market/example.json"
         },
         "research": {
           "path": "playbooks/growth/go-to-market/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/go-to-market/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/go-to-market/research.md"
         },
         "description": {
           "path": "playbooks/growth/go-to-market/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/go-to-market/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/go-to-market/description.json"
         }
       }
     },
@@ -303,23 +303,23 @@
       "files": {
         "template": {
           "path": "playbooks/growth/lead-generation/template.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/lead-generation/template.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/lead-generation/template.md"
         },
         "schema": {
           "path": "playbooks/growth/lead-generation/schema.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/lead-generation/schema.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/lead-generation/schema.json"
         },
         "example": {
           "path": "playbooks/growth/lead-generation/example.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/lead-generation/example.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/lead-generation/example.json"
         },
         "research": {
           "path": "playbooks/growth/lead-generation/research.md",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/lead-generation/research.md"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/lead-generation/research.md"
         },
         "description": {
           "path": "playbooks/growth/lead-generation/description.json",
-          "url": "https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/growth/lead-generation/description.json"
+          "url": "https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/growth/lead-generation/description.json"
         }
       }
     }
