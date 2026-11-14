@@ -1,14 +1,14 @@
 {
-  "name": "playbooks",
-  "displayName": "Playbooks",
+  "name": "foundrvibe",
+  "displayName": "foundrvibe",
   "version": "1.1.0",
   "description": "A startup cofounder that decides which playbook to run, runs it, and keeps a founder file between sessions. Includes run-playbook for a single document and write-playbook to add a playbook from a job you describe.",
   "author": {
     "name": "Koceila Abbas",
-    "url": "https://github.com/foundrvibe/playbooks-for-agents"
+    "url": "https://github.com/foundrvibe/cofounder"
   },
-  "homepage": "https://github.com/foundrvibe/playbooks-for-agents",
-  "repository": "https://github.com/foundrvibe/playbooks-for-agents",
+  "homepage": "https://github.com/foundrvibe/cofounder",
+  "repository": "https://github.com/foundrvibe/cofounder",
   "license": "MIT",
   "keywords": ["playbooks", "business-plan", "idea-validation", "cofounder"]
 }

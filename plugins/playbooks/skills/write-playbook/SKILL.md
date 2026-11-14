@@ -13,15 +13,15 @@ A playbook is a job someone already knows how to do, written down once. You inte
 
 This file is the only link a user needs to send. Fetch the other files yourself.
 
-Base URL: `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/`
+Base URL: `https://raw.githubusercontent.com/foundrvibe/cofounder/main/`
 
 | File | URL |
 |---|---|
-| Fill rules | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/rules/fill.md` |
-| Run a playbook | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md` |
-| Catalog | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/catalog.json` |
-| Starter files | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/playbooks/_starter/<file>` |
-| Shared research guides | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/research/<name>.md` |
+| Fill rules | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/rules/fill.md` |
+| Run a playbook | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/run-playbook/SKILL.md` |
+| Catalog | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/catalog.json` |
+| Starter files | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/playbooks/_starter/<file>` |
+| Shared research guides | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/research/<name>.md` |
 
 Read the fill rules first. Every run of the new playbook must be able to obey them. Then read the starter files, and the five files of the ready playbook in the catalog that is closest to this job. Copy its conventions, not its content.
 

@@ -1,8 +1,10 @@
-# Playbooks
+# Cofounder
 
-A playbook is a job you already know how to do, written down once. Give that playbook to your agent. The agent does the job the way you would, and respects that pattern on every run.
+Your AI cofounder. A free skill for ChatGPT, Claude, or Cursor. Tell it what you are building. It picks the next step, runs it, and remembers the results for next time. [Start here.](#use-it)
 
-Start with the [cofounder](#use-it), in ChatGPT, Claude, or Cursor. It decides which playbook to run, runs it, and remembers the results between sessions. It calls two other skills: one [runs a single playbook](#run-one-playbook-directly), and one [writes a new playbook](#write-your-own-playbook) from a job you describe.
+Every step is a playbook. A playbook is a job you already know how to do, written down once. Give that playbook to your agent. The agent does the job the way you would, and respects that pattern on every run.
+
+The cofounder calls two other skills: one [runs a single playbook](#run-one-playbook-directly), and one [writes a new playbook](#write-your-own-playbook) from a job you describe.
 
 ```mermaid
 flowchart LR
@@ -44,7 +46,7 @@ No playbook invents an interview, a contact, a quote, or a figure. Anything not 
 Paste this into ChatGPT, Claude, or a Cursor agent chat. One link is enough. The cofounder fetches the other skills, the rules, the catalog, and the playbook files.
 
 ```text
-Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/cofounder/SKILL.md
+Follow https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/cofounder/SKILL.md
 
 I'm building ZedCut, a bilingual B2B SaaS for countertop fabrication shops in Quebec. What should I do next?
 ```
@@ -75,7 +77,7 @@ Then talk to it as you would to a cofounder. Every message goes to the cofounder
 To skip the cofounder and get one document, use the run-playbook link. It keeps no founder file.
 
 ```text
-Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md
+Follow https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/run-playbook/SKILL.md
 
 Create a business plan for ZedCut, a bilingual B2B SaaS for countertop fabrication shops in Canada.
 ```
@@ -85,7 +87,7 @@ Replace the second line with your own request. If several playbooks match, the a
 To choose the playbook yourself, name its id. The agent uses that playbook and does not match intents. This works with the cofounder link too.
 
 ```text
-Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md
+Follow https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/run-playbook/SKILL.md
 
 Playbook: business-plan
 Describe the company or idea here.
@@ -94,7 +96,7 @@ Describe the company or idea here.
 Use any id from the table above in place of `business-plan`, for example:
 
 ```text
-Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md
+Follow https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/run-playbook/SKILL.md
 
 Playbook: customer-discovery
 ZedCut, a bilingual B2B SaaS for countertop fabrication shops in Canada. No interviews yet.
@@ -107,7 +109,7 @@ A raw URL to `template.md`, `schema.json`, or the playbook folder selects it the
 The eight playbooks here are startup work. The format fits any job you already know how to do. This skill interviews you about the job, writes the five files and the catalog entry, and validates them. The cofounder offers it when you ask for work no playbook covers, or you can call it yourself.
 
 ```text
-Follow https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/write-playbook/SKILL.md
+Follow https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/write-playbook/SKILL.md
 
 Turn how I do a pricing review for small software companies into a playbook.
 ```
@@ -132,7 +134,7 @@ No new skill is required. CI fails if two ready playbooks share an intent, if `r
 
 Each playbook version is tagged as `<id>-v<version>`, for example `business-plan-v4.0.0`. Replace `main` in any raw URL with the tag to keep a fixed shape:
 
-`https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/business-plan-v4.0.0/playbooks/planning/business-plan/template.md`
+`https://raw.githubusercontent.com/foundrvibe/cofounder/business-plan-v4.0.0/playbooks/planning/business-plan/template.md`
 
 A tag pins the rules and skill at that commit too. A breaking schema change gets a new major version.
 

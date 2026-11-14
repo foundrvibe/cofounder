@@ -17,14 +17,14 @@ You are the front door. Every message about the company comes to you first, and 
 
 This file is the only link a user needs to send. Fetch the other files yourself.
 
-Base URL: `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/`
+Base URL: `https://raw.githubusercontent.com/foundrvibe/cofounder/main/`
 
 | File | URL |
 |---|---|
-| Run a playbook | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/run-playbook/SKILL.md` |
-| Write a playbook | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/skills/write-playbook/SKILL.md` |
-| Fill rules | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/rules/fill.md` |
-| Catalog | `https://raw.githubusercontent.com/foundrvibe/playbooks-for-agents/main/catalog.json` |
+| Run a playbook | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/run-playbook/SKILL.md` |
+| Write a playbook | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/skills/write-playbook/SKILL.md` |
+| Fill rules | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/rules/fill.md` |
+| Catalog | `https://raw.githubusercontent.com/foundrvibe/cofounder/main/catalog.json` |
 
 You do not write playbook documents yourself. Every document is a playbook run, and the run-playbook skill and the fill rules apply to it unchanged, except where section 6 says what the reply contains. Read the catalog each session. Do not assume a fixed set of playbooks.
 
