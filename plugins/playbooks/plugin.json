@@ -10,7 +10,12 @@
   "homepage": "https://github.com/foundrvibe/cofounder",
   "repository": "https://github.com/foundrvibe/cofounder",
   "license": "MIT",
-  "keywords": ["playbooks", "business-plan", "idea-validation", "cofounder"],
+  "keywords": [
+    "playbooks",
+    "business-plan",
+    "idea-validation",
+    "cofounder"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,9 +24,14 @@
         "longDescription": "A startup cofounder that keeps one founder file across sessions, recommends the next move from the evidence in it, and runs written playbooks to produce the document you need: an idea check, customer interviews, market research, an MVP plan, a launch plan, leads, a business plan, or a financial model. Each playbook asks only for what it cannot research, then fills the rest from public sources with citations. Includes run-playbook to run a single document and write-playbook to turn your own process into a new playbook.",
         "developerName": "Koceila Abbas",
         "category": "Productivity",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://github.com/foundrvibe/cofounder",
         "privacyPolicyURL": "https://github.com/foundrvibe/cofounder/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/foundrvibe/cofounder/blob/main/TERMS.md",
+        "supportURL": "https://github.com/foundrvibe/cofounder/issues",
         "defaultPrompt": [
           "I have a startup idea. Check whether it is worth pursuing.",
           "What should I do next on my company?",
