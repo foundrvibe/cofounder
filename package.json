@@ -8,7 +8,8 @@
   "scripts": {
     "validate": "node scripts/validate-templates.mjs",
     "check": "node scripts/check-fill.mjs",
-    "render": "node scripts/render-fill.mjs"
+    "render": "node scripts/render-fill.mjs",
+    "zip:chatgpt": "rm -f dist/foundrvibe-chatgpt.zip && mkdir -p dist && cd plugins/playbooks && zip -qrX ../../dist/foundrvibe-chatgpt.zip plugin.json assets skills -x \"*.DS_Store\""
   },
   "dependencies": {
     "ajv": "^8.17.1"
